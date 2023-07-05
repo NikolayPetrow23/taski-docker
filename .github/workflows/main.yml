@@ -50,5 +50,4 @@ jobs:
       run: |
         cd backend/
         python -m flake8
-#        cd backend/
         python manage.py test
