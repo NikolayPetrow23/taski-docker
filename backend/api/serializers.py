@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from api.models import Task
+from .models import Task
 
 
 class TaskSerializer(serializers.ModelSerializer):
